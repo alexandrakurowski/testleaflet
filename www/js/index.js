@@ -20,8 +20,8 @@ var gastro = L.icon({
     popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 
-var markerGastro = L.marker([49.11115,
-    6.1941884], { icon: gastro }).addTo(mymap);
+var markerGastro = L.marker([43.6490449,
+    0.5885573000000477], { icon: gastro }).addTo(mymap);
 
 markerGastro.bindPopup("<b>LA MIE CALINE</b><br>I am a popup.").openPopup();
 
